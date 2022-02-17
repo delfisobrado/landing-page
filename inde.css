@@ -1,0 +1,90 @@
+@import url(./logo/WhatsApp\ Image\ 2022-02-17\ at\ 16.12.32.jpeg);
+
+
+body { background-color: #404040;}
+
+.inicio { background-color: black;
+width: 100%;
+height: 80px;
+box-shadow: -2px 9px 24px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px 9px 24px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 9px 24px 1px rgba(0,0,0,0.75);
+display: flex;}
+
+
+
+.navegacion { width: 50%;
+height: 100%; 
+display: flex;
+justify-content: space-around;
+box-sizing: border-box;
+align-items: center;}
+
+p { display: flex;
+    display: inline;
+    font-weight: bold;
+    justify-content: center;
+align-items: center;
+justify-content: right;
+font-size: 20px;
+color: white;
+}
+
+.img { width: 50%;
+height: 100%;
+display: flex;
+margin-left: 10px;} 
+
+.logo { background-size: cover;
+width: 40%;}
+
+.conteiner-imagen {width: 100%;
+height: 50%;
+display: flex;
+max-width: fit-content;
+float: right;
+margin-top: 30px;}
+
+
+
+.info { display: flex;
+flex-direction: column;
+width: 50%; 
+height: 50%;
+align-items: center;
+justify-content: center;
+margin-left: 50px;}
+
+.texto {
+font-size: 30px;}
+
+.conteiner-input { width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.inputs {display: flex;
+border-radius: 20px;
+border: 2px solid black; 
+width: 100%;
+width: 30%;
+align-items: center;
+justify-content: center;
+background-color: #840808;
+font-weight: bold;
+}
+
+button:hover { background:rgba(132,8,8,0.3);}
+
+.conteiner-nosotros { display: flex;
+flex-wrap: wrap;
+width: 50%;
+height: 100px;
+justify-content: center;
+margin-left: 50px;
+margin-top: 30px;
+font-weight: bold;}
+
+.parrafo { font-family: 'Roboto Serif';
+color: black ;}
